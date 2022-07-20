@@ -7,7 +7,7 @@
 <title>Insert title here</title>
 </head>
 <body>
-<form method="post action="/realizaCadastroPrato">
+<form method="post" action="/realizaCadastroPrato">
 Nome: <input required type="text" name="nome"/>
 Descricao: <input required type="text" name="descricao"/>
 URL: <input required type="text" name="url"/>

@@ -13,7 +13,7 @@
 <h1>Página Inicial do Admin</h1>
 <div class="div-btn" ><a href="/cadastrarPratos">CADASTRAR PRATOS</a></div>
 <div class="div-btn" ><a href="/visualizaClientes">VISUALIZAR CLIENTES</a></div>
-<div class="div-btn" ><a href="">CADASTRAR FORMAS DE PAGAMENTO</a></div>
+<div class="div-btn" ><a href="/cadastrarFormaPagamento">CADASTRAR FORMAS DE PAGAMENTO</a></div>
 <div class="div-btn" ><a href="">VISUALIZAR PEDIDOS</a></div>
 
 </body>

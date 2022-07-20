@@ -3,6 +3,7 @@ package com.infortech.Restaurante.classes;
 public class FormaPagamento {
 	private int id;
 	private String descricao;
+	
 	public int getId() {
 		return id;
 	}

@@ -9,40 +9,72 @@ import com.infortech.Restaurante.classes.Cliente;
 import com.infortech.Restaurante.classes.Pedido;
 
 public class PedidoRepository implements IGenericRepository<Pedido, Integer> {
-	
+
 	ConnectionManager cm = new ConnectionManager();
-	
+
 	@Override
 	public void create(Pedido p) {
 		try {
-			
+
 		} catch (ClassNotFoundException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		} catch (SQLException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
-		} 
-		
-		
+		}
+
 	}
+
 	@Override
-    public void update(Pedido p) {
-		
+	public void update(Pedido p) {
+		try {
+
+		} catch (ClassNotFoundException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		} catch (SQLException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
 	}
-	
-    @Override
+
+	@Override
 	public Pedido read(Integer i) {
-    	
-    }
-    
-    @Override
-    public void delete(Integer i) {
-    	
-    }
-    
-    @Override
-    public List<Pedido> readAll() {
-    	
-    }
+		try {
+
+		} catch (ClassNotFoundException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		} catch (SQLException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+	}
+
+	@Override
+	public void delete(Integer i) {
+		try {
+
+		} catch (ClassNotFoundException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		} catch (SQLException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+	}
+
+	@Override
+	public List<Pedido> readAll() {
+		try {
+
+		} catch (ClassNotFoundException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		} catch (SQLException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+	}
 }
